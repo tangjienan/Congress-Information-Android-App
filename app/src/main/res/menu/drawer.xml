@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Leg"
+            android:checked="true"
+            android:icon="@drawable/icon1"
+            android:title="Legalslator" />
+        <item
+            android:id="@+id/bil"
+            android:icon="@drawable/icon2"
+            android:title="Bills" />
+        <item
+            android:id="@+id/com"
+            android:icon="@drawable/icon3"
+            android:title="commmittee" />
+        <item
+            android:id="@+id/fav"
+            android:icon="@drawable/icon4"
+            android:title="favorite" />
+
+    </group>
+
+    <item android:title="@string/nav_sub_menu">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/icon5"
+                android:title="About Me" />
+
+        </menu>
+    </item>
+
+</menu>
